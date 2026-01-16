@@ -17,6 +17,7 @@ def play_game_1(min_x=0, max_x=20):
         n += 1
         print()
         print(f"Guess #{n}:")
+    
         result = take_user_input(guess)
         
         if result==1:
